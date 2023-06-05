@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 14px;
+            padding: 10px;
+        }
+        /*Estilização do botão fora do CSS*/
+    </style>
+</head>
+<body>
+    <h1>Exercício 001 - Alterando a cor de fundo página</h1>
+    <button  onclick="BotaoTeste1()">Vermelho</button>
+    <button  onclick="BotaoTeste2()">Verde</button>
+    <button  onclick="BotaoTeste3()">Azul</button>
+    <script>
+        
+        alert("Isso é só um teste")
+       
+        //"function" para criar uma função ao botão
+        function BotaoTeste1(){
+            document.body.style.backgroundColor = "red"
+        } 
+        //para modificar a cor de fundo ao clique dos botões 
+        function BotaoTeste2(){
+            document.body.style.backgroundColor = "green"
+        }
+        function BotaoTeste3(){
+            document.body.style.backgroundColor = "blue"
+        }
+        //parênteses () é necessário
+
+
+    </script>
+</body>
+</html>

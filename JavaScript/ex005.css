@@ -1,0 +1,24 @@
+button {
+    padding: 15px;
+    background-color: rgb(98, 102, 227);
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(174, 174, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+div {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 3px 5px black ;
+    padding: 30px;
+    width: 300px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 10px;
+            background-color: black;
+            color: cyan;
+            text-shadow: 0px 0px 5px cyan;
+            border: 1px solid transparent;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tentando fazer sem a teoria</h1>
+    <button onclick="BotaoSomar()">Some aqui!</button>
+    <p>Obrigado por somar conosco!</p>
+
+    <script>
+        function BotaoSomar() {
+            var val1 = prompt('Digite aqui o valor desejado')
+            var val2 = prompt('Digite aqui o segundo valor')
+            var soma = Number(val1) + Number(val2)
+
+            console.log(soma)
+        }
+
+    </script>
+
+</body>
+
+</html>
